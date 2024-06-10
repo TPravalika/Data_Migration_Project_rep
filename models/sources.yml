@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: my_project
+    database: MAXIMO_STAGING  
+    schema: SPEAR  
+    tables:
+      - name: TA_TEMPLATE_WO_TASK
+      - name: TA_TEMPLATE_WO
+      - name: TA_TEMPLATE_WO_JOB
+      - name: TA_TMPLT_WO_JOB_LBR
+      - name: TA_TMPLT_WO_JOB_ITEM
+
+      - name: TA_TMPLT_WO_JOB_DOC
+      - name: TA_DOCUMENT
+      - name: TA_DOC_CATEGORY

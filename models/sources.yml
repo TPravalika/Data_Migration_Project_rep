@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: my_project
+  - name: spear
     database: MAXIMO_STAGING  
     schema: SPEAR  
     tables:
@@ -14,3 +14,4 @@ sources:
       - name: TA_TMPLT_WO_JOB_DOC
       - name: TA_DOCUMENT
       - name: TA_DOC_CATEGORY
+      - name: TA_PATTERN_ELEMENT

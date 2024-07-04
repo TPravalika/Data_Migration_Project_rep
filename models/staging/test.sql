@@ -8,7 +8,7 @@
 with final as 
 (
     select * 
-from {{ source('my_project', 'TA_DOC_CATEGORY') }}
+from {{ source('spear', 'TA_DOC_CATEGORY') }}
 )
 select *
 from final

@@ -15,3 +15,6 @@ sources:
       - name: TA_DOCUMENT
       - name: TA_DOC_CATEGORY
       - name: TA_PATTERN_ELEMENT
+      - name: TA_WO_INFORMATION
+      - name: TA_EQUIPMENT
+      - name: TA_MAINT_PATTERN

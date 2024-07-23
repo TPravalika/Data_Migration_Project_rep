@@ -64,5 +64,4 @@ from
     JOIN {{ source('spear','TA_MAINT_PATTERN')}}  pm          ON pe.MAINT_PATTERN_CODE=pm.MAINT_PATTERN_CODE
     LEFT JOIN {{ source('spear','TA_TEMPLATE_WO')}}  two      ON woi.TEMPLATE_WO_ID=two.TEMPLATE_WO_ID
    LEFT JOIN two_count_tab          ON pm.MAINT_PATTERN_CODE=two_count_tab.MAINT_PATTERN_CODE and e.EQUIP_CODE=two_count_tab.EQUIP_CODE
-    where    
-    two_count_tab.two_count>1
+ 
